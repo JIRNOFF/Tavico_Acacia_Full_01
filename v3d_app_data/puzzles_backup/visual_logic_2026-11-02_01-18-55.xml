@@ -1,0 +1,392 @@
+<xml xmlns="https://www.soft8soft.com/puzzles/xml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
+  <tab name="Main" type="CommonTab" active="true" scrollx="-6.5754547119140625" scrolly="420.0584716796875" scale="1">
+    <block type="createCSSRule" id="svC{?!.4qnzZ`nlU=[*R" x="110" y="-330">
+      <mutation mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="hVSEM7?],{M(Em)}E(#D">
+          <field name="TEXT">.btns</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="i=zdwP]9*+Rcbz{:zfe6">
+          <mutation>
+            <prop name="width" shadowvalue="110px"></prop>
+            <prop name="border-radius" shadowvalue="5px"></prop>
+            <prop name="background-color" shadowvalue="grey"></prop>
+            <prop name="margin" shadowvalue="5px"></prop>
+            <prop name="text-align" shadowvalue="center"></prop>
+            <prop name="align-content" shadowvalue="center"></prop>
+            <prop name="padding" shadowvalue="5px"></prop>
+            <prop name="font-size" shadowvalue="13px"></prop>
+            <prop name="color" shadowvalue="#000000"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="text" id="G``1R,S*2ie[;J6={-Ig">
+              <field name="TEXT">110px</field>
+            </shadow>
+          </value>
+          <value name="PROP1">
+            <shadow type="text" id="_#:nw#7cB$L:pZT]^.a/">
+              <field name="TEXT">5px</field>
+            </shadow>
+          </value>
+          <value name="PROP2">
+            <shadow type="text" id="FFr.Md_o:!5.5Q/v5h^~">
+              <field name="TEXT">grey</field>
+            </shadow>
+          </value>
+          <value name="PROP3">
+            <shadow type="text" id="BaXR}UT-n0*|FU6l4[I%">
+              <field name="TEXT">5px</field>
+            </shadow>
+          </value>
+          <value name="PROP4">
+            <shadow type="textAlignDropdown" id="*VqrbX*faH$O2*Um4Gi7">
+              <field name="TEXT">center</field>
+            </shadow>
+          </value>
+          <value name="PROP5">
+            <shadow type="alignContentDropdown" id="iiVBc-IP1U?.U?[%+rP/">
+              <field name="TEXT">center</field>
+            </shadow>
+          </value>
+          <value name="PROP6">
+            <shadow type="text" id="G%^8!5W9WsWkev(ik/?g">
+              <field name="TEXT">5px</field>
+            </shadow>
+          </value>
+          <value name="PROP7">
+            <shadow type="text" id="v[OBaiSsp/^Yf+29U`eA">
+              <field name="TEXT">13px</field>
+            </shadow>
+          </value>
+          <value name="PROP8">
+            <shadow type="text" id="kb)L#kO}VKRrfT0P0V{B">
+              <field name="TEXT">white</field>
+            </shadow>
+          </value>
+        </shadow>
+      </value>
+    </block>
+    <block type="addHTMLElement" id="@,eoI![vFG|Gx2A0eNB5" x="110" y="90">
+      <field name="ELEMENT">div</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="TlX`aZ~?/F?bf`s)|S~X">
+          <field name="TEXT">menu-top</field>
+        </shadow>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="@rTIX~,;=A5L-}EsDYx}">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="setHTMLElemStyle" id="+jNwhxLSJ5sn:]*#mV8P">
+          <field name="PROPERTY">display</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <shadow type="displayDropdown" id="!8ExHPB_f]hL+}@~=*td">
+              <field name="TEXT">inline-flex</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="V`_Lpn[0]!E2b1d1+24u">
+              <field name="TEXT">menu-top</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setHTMLElemStyle" id="tinDrl$aREqXw+Rvkr5c">
+              <field name="PROPERTY">flexDirection</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="flexDirectionDropdown" id="GYCr8ZJ6T-N~tGbl[G6v">
+                  <field name="TEXT">column</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="HrDox:rClw.F,9k71[l9">
+                  <field name="TEXT">menu-top</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="2~jRHsQ(w.#4ButkYcc!">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="n!Z}XXuE_,jTLqGM{nAK">
+                      <field name="TEXT">transparent</field>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="6t^y83e(_yCJ8:XM!w1g">
+                      <field name="TEXT">menu-top</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id=",LeI(:9ib!{qX+c2cCLE">
+                      <field name="PROPERTY">marginTop</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="VALUE">
+                        <shadow type="text" id=",z`FOj.X^qA]l~fVY^_|">
+                          <field name="TEXT">5px</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="9#ktXN~XCOj68ld!87nP">
+                          <field name="TEXT">menu-top</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemStyle" id="c?q$cJ.+Vio,dThn1+%/">
+                          <field name="PROPERTY">marginLeft</field>
+                          <field name="PARENT">FALSE</field>
+                          <value name="VALUE">
+                            <shadow type="text" id="mSu=`/[F4(m2zP9RkrY4">
+                              <field name="TEXT">5px</field>
+                            </shadow>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="!J{hZc--$_T`,!g0msXi">
+                              <field name="TEXT">menu-top</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block type="addHTMLElement" id="uX/k|w;(a|*dKGm3l59k" x="110" y="390">
+      <field name="ELEMENT">div</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="c=l+@xhH0VW?hGUjb?og">
+          <field name="TEXT">btn-1</field>
+        </shadow>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="@rTIX~,;=A5L-}EsDYx}">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+        <block type="text" id="j#QgmzhG4]z7CukI]#*.">
+          <field name="TEXT">menu-top</field>
+        </block>
+      </value>
+      <next>
+        <block type="setHTMLElemAttribute" id="{,?n7+QukWf`+0!Q3ZQd">
+          <field name="ATTRIBUTE">textContent</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <shadow type="text" id="2d$tkn4#pZd2fx9!*17)">
+              <field name="TEXT">MAIN VIEW</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="f[j6(=.Go!%sP?mb7+{V">
+              <field name="TEXT">btn-1</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="addHTMLElement" id="Cp7/2{#7{*bYE?]?jDM~">
+              <field name="ELEMENT">div</field>
+              <field name="MODE">TO</field>
+              <field name="PARENT">FALSE</field>
+              <value name="ID">
+                <shadow type="text" id="xVjD_Fpp;*+0#bozn`,?">
+                  <field name="TEXT">btn-2</field>
+                </shadow>
+              </value>
+              <value name="TARGET_ID">
+                <shadow type="DOMObjectSelector" id="@rTIX~,;=A5L-}EsDYx}">
+                  <field name="DOM_OBJECT">CONTAINER</field>
+                </shadow>
+                <block type="text" id="5@,`YXu!`gYS7v|aO..I">
+                  <field name="TEXT">menu-top</field>
+                </block>
+              </value>
+              <next>
+                <block type="setHTMLElemAttribute" id="RE..%R$pwDp(k,5?b,*O">
+                  <field name="ATTRIBUTE">textContent</field>
+                  <field name="PARENT">FALSE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="!Qi%/WpuuFgzB?0GE]UO">
+                      <field name="TEXT">SAWING LOGS</field>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="${]TN53PSC)1gES*p*~*">
+                      <field name="TEXT">btn-2</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="addHTMLElement" id="i;;_,@v@NjAiRQk_9f5|">
+                      <field name="ELEMENT">div</field>
+                      <field name="MODE">TO</field>
+                      <field name="PARENT">FALSE</field>
+                      <value name="ID">
+                        <shadow type="text" id="d*?l#yKi`R;,_;9PS}yx">
+                          <field name="TEXT">btn-3</field>
+                        </shadow>
+                      </value>
+                      <value name="TARGET_ID">
+                        <shadow type="DOMObjectSelector" id="@rTIX~,;=A5L-}EsDYx}">
+                          <field name="DOM_OBJECT">CONTAINER</field>
+                        </shadow>
+                        <block type="text" id="tIRDBA/B*!D@M]VwzKdq">
+                          <field name="TEXT">menu-top</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemAttribute" id="c#6I8P8$oADv*ZvcZ.GO">
+                          <field name="ATTRIBUTE">textContent</field>
+                          <field name="PARENT">FALSE</field>
+                          <value name="VALUE">
+                            <shadow type="text" id="sB~dX1m^X)^_b-SjE+w@">
+                              <field name="TEXT">FUTURE</field>
+                            </shadow>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="Ma!:e.0r7t)Y0f@xEibg">
+                              <field name="TEXT">btn-3</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="addHTMLElement" id="VyR7kUb+@j5!4p@SSw#q">
+                              <field name="ELEMENT">div</field>
+                              <field name="MODE">TO</field>
+                              <field name="PARENT">FALSE</field>
+                              <value name="ID">
+                                <shadow type="text" id="1pabV99}.k]i-ag7ul57">
+                                  <field name="TEXT">btn-4</field>
+                                </shadow>
+                              </value>
+                              <value name="TARGET_ID">
+                                <shadow type="DOMObjectSelector" id="@rTIX~,;=A5L-}EsDYx}">
+                                  <field name="DOM_OBJECT">CONTAINER</field>
+                                </shadow>
+                                <block type="text" id="$H18WxwM#X.%=Awm-.P:">
+                                  <field name="TEXT">menu-top</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="setHTMLElemAttribute" id="Qmv1#L-]fp!q7yL4gX|H">
+                                  <field name="ATTRIBUTE">textContent</field>
+                                  <field name="PARENT">FALSE</field>
+                                  <value name="VALUE">
+                                    <shadow type="text" id="Fm*oT+%~Si+lPs4;z[7W">
+                                      <field name="TEXT">PACIFIC</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="ID">
+                                    <shadow type="text" id="IVZO*!c8Ekvxfz)(iuOf">
+                                      <field name="TEXT">btn-4</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="addHTMLElement" id="a-L{!c+k^48__NO5Rsjz">
+                                      <field name="ELEMENT">div</field>
+                                      <field name="MODE">TO</field>
+                                      <field name="PARENT">FALSE</field>
+                                      <value name="ID">
+                                        <shadow type="text" id="l]B?DZ$FU(UlmtcvWiKR">
+                                          <field name="TEXT">btn-5</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="TARGET_ID">
+                                        <shadow type="DOMObjectSelector" id="6c,/]~`{f?e:g5~JB#2g">
+                                          <field name="DOM_OBJECT">CONTAINER</field>
+                                        </shadow>
+                                        <block type="text" id="{/[)7y%pg7xIG}{Gr-}E">
+                                          <field name="TEXT">menu-top</field>
+                                        </block>
+                                      </value>
+                                      <next>
+                                        <block type="setHTMLElemAttribute" id="|A!Vz;8Pfr46.2P`f(_D">
+                                          <field name="ATTRIBUTE">textContent</field>
+                                          <field name="PARENT">FALSE</field>
+                                          <value name="VALUE">
+                                            <shadow type="text" id="]y,mAApMi6N9Zvv?qLM[">
+                                              <field name="TEXT">VIN LONG</field>
+                                            </shadow>
+                                          </value>
+                                          <value name="ID">
+                                            <shadow type="text" id="numvwK_@:r+ux/,!I|rE">
+                                              <field name="TEXT">btn-5</field>
+                                            </shadow>
+                                          </value>
+                                          <next>
+                                            <block type="setHTMLElemAttribute" id="7xbfQoSNWTR;kz]Xmln7">
+                                              <field name="ATTRIBUTE">className</field>
+                                              <field name="PARENT">FALSE</field>
+                                              <value name="VALUE">
+                                                <shadow type="text" id="h@E*yDRQWPo8jhj7+#8C">
+                                                  <field name="TEXT">btns</field>
+                                                </shadow>
+                                              </value>
+                                              <value name="ID">
+                                                <shadow type="text" id="3F=LF?d{by*N9Kv^fq}t">
+                                                  <field name="TEXT">myElem</field>
+                                                </shadow>
+                                                <block type="lists_create_with" id="aj~g(HQZ50]/f9,Li/TS">
+                                                  <mutation items="5"></mutation>
+                                                  <value name="ADD0">
+                                                    <block type="text" id=":d5R;k|9^uNViy`(r,}o">
+                                                      <field name="TEXT">btn-1</field>
+                                                    </block>
+                                                  </value>
+                                                  <value name="ADD1">
+                                                    <block type="text" id="*xjePixsag+{y`V+!x/M">
+                                                      <field name="TEXT">btn-2</field>
+                                                    </block>
+                                                  </value>
+                                                  <value name="ADD2">
+                                                    <block type="text" id="fg8NOx`cYPK3,!o#/G:%">
+                                                      <field name="TEXT">btn-3</field>
+                                                    </block>
+                                                  </value>
+                                                  <value name="ADD3">
+                                                    <block type="text" id="x?h/V[+IkLah!4PTug?p">
+                                                      <field name="TEXT">btn-4</field>
+                                                    </block>
+                                                  </value>
+                                                  <value name="ADD4">
+                                                    <block type="text" id="Wcf^am=1Y%6yt}5{P8aj">
+                                                      <field name="TEXT">btn-5</field>
+                                                    </block>
+                                                  </value>
+                                                </block>
+                                              </value>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="37" viewport-w="768" viewport-h="447" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
