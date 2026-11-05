@@ -1,6 +1,6 @@
 <xml xmlns="https://www.soft8soft.com/puzzles/xml">
   <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
-  <tab name="Main" type="CommonTab" active="false" scrollx="82.88296508789062" scrolly="163.53507915190693" scale="0.6056854783403958">
+  <tab name="Main" type="CommonTab" active="false" scrollx="-29.954269409179688" scrolly="-127.12339019775402" scale="1">
     <block type="createCSSRule" id="svC{?!.4qnzZ`nlU=[*R" x="110" y="-270">
       <mutation mediaruleslot="false"></mutation>
       <field name="PARENT">FALSE</field>
@@ -290,7 +290,7 @@
                                   <field name="PARENT">FALSE</field>
                                   <value name="VALUE">
                                     <shadow type="text" id="Fm*oT+%~Si+lPs4;z[7W">
-                                      <field name="TEXT">PACIFIC</field>
+                                      <field name="TEXT">LINE 1</field>
                                     </shadow>
                                   </value>
                                   <value name="ID">
@@ -322,7 +322,7 @@
                                           <field name="PARENT">FALSE</field>
                                           <value name="VALUE">
                                             <shadow type="text" id="]y,mAApMi6N9Zvv?qLM[">
-                                              <field name="TEXT">VIN LONG</field>
+                                              <field name="TEXT">LINE 2</field>
                                             </shadow>
                                           </value>
                                           <value name="ID">
@@ -394,7 +394,7 @@
       </next>
     </block>
   </tab>
-  <tab name="Engine" type="CommonTab" active="true" scrollx="-393.7975158691405" scrolly="-211.09683227539062" scale="0.7912092655287302">
+  <tab name="Engine" type="CommonTab" active="true" scrollx="-739.833312988281" scrolly="-415.8852844238281" scale="1">
     <block type="eventHTMLElem" id="jM5.;?KHRjLI-(F2B2}[" x="70" y="90">
       <field name="EVENT">click</field>
       <field name="PARENT">FALSE</field>
@@ -669,7 +669,7 @@
           <field name="ON_OFF">ON</field>
           <value name="SPEED">
             <shadow type="math_number" id="y;R@zYh}D73/hmkePtsf">
-              <field name="NUM">1</field>
+              <field name="NUM">0.2</field>
             </shadow>
           </value>
         </block>
@@ -693,7 +693,7 @@
               <field name="ON_OFF">OFF</field>
               <value name="SPEED">
                 <shadow type="math_number" id="n:3]CS-1Q#KTd7xInbC,">
-                  <field name="NUM">1</field>
+                  <field name="NUM">0.2</field>
                 </shadow>
               </value>
             </block>
